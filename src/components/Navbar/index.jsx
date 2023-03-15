@@ -7,11 +7,11 @@ const Navbar = () => {
       <div className="flex justify-between items-center mx-auto p-3 max-w-7xl">
         <img className="w-28" src={Logo} alt="logo"/>
         <div className="flex justify-center">
-          <p className="mx-5">INICIO</p>
-          <p className="mx-5">COMEDOR</p>
-          <p className="mx-5">RECAMARA</p>
-          <p className="mx-5">SALA</p>
-          <p className="mx-5">ACCESORIOS</p>
+          <a className="mx-5" href="#">INICIO</a>
+          <a className="mx-5" href="#">COMEDOR</a>
+          <a className="mx-5" href="#">RECAMARA</a>
+          <a className="mx-5" href="#">SALA</a>
+          <a className="mx-5" href="#">ACCESORIOS</a>
           <CartWidget/>
         </div>
       </div>
