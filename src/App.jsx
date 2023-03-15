@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-      <ItemListContainer greetings={'Mesaje de Greetings'} />
+      <ItemListContainer greeting={'Mesaje de Greetings'} />
     </>
       
   )
